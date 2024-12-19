@@ -30,7 +30,7 @@ class DSEDataset(Dataset):
                 
         # REWARDS transformation
         self.rewards_data = self.dataset_df[['rewards']].to_numpy()
-        # Refer to VAESA
+        # Refer VAESA
         self.rewards_data = np.log(self.rewards_data)
         self.rewards_data_mean = self.rewards_data.mean()
         self.rewards_data_std = self.rewards_data.std()

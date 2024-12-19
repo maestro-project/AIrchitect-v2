@@ -38,6 +38,10 @@ The dataset of size 100k is located in ```./dse_dataset``` and no download is re
 
 ** To add support for your own DSE data, modify ```dataset.py``` accordingly following a similar dataloader structure for the existing dataset.
 
+For simplicity in this implementation, we assume configID as the label to predict based on a single UOV head, but configID can be decomposed as #PEs and Buffer Size independently following the above formula and trained with two UOV heads as explained in the paper.
+
+Furthermore, rewards can also be used as an additional parameter to improve DSE learning by the model.
+
 ## Run Instruction 
 1. Stage 1 Encoder Training 
 
