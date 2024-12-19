@@ -1,0 +1,14 @@
+tensorflow
+pandas
+pylint
+tqdm
+matplotlib
+setuptools
+numpy
+scikit-learn
+keras-metrics
+scalesim
+pyyaml
+torch
+torchvision
+tensorboardX
