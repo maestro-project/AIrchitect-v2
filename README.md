@@ -1,6 +1,33 @@
-# AIrchitect-v2
+# AIrchitect v2: Learning the Hardware Accelerator Design Space through Unified Representations
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-## Install 
+## About
+![AIRCHITECT V2 Framework](assets/airchitect_v2.png "Overview of AIRCHITECT V2")
+
+AIRCHITECT V2 is a learning-based design space exploration (DSE) tool developed to navigate the challenges of optimizing hardware accelerator designs for deep neural networks (DNNs) and large-scale workloads.
+
+Key features:
+  - **Encoder-Decoder Transformer Model**: For better handling of complex input-output relationships in DSE tasks.
+  - **Contrastive Learning**: Creates a uniform and smooth intermediate feature representation to overcome non-uniform performance landscapes and long-tailed data distributions.
+  - **Unified Ordinal Vectors (UOV)**: Combines the benefits of classification and regression for efficient and scalable DSE.
+
+This repository contains the official training and inference implementation of supervised DSE using AIrchitect v2 and provides access to the DSE training dataset used in the paper.
+
+## Citation
+If you find this repo useful and use our dataset/artifacts, please cite
+
+```
+@article{ramachandran2025uov,
+  title={AIrchitect v2: Learning the Hardware Accelerator Design Space through Unified Representations},
+  author={Seo, Jamin and Ramachandran, Akshat and Chuang, Yu-Chuan and Itagi, Anirudh and Krishna, Tushar},
+  booktitle={2025 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
+  pages={1--7},
+  year={2025},
+  organization={IEEE}
+}
+```
+
+## Codebase Installation 
 
 ```
 conda create -n <name> python=3.8 -y
@@ -73,7 +100,7 @@ If you find this repo useful and use our dataset/artifacts, please cite
 ```
 @article{ramachandran2025uov,
   title={AIrchitect v2: Learning the Hardware Accelerator Design Space through Unified Representations},
-  author={Ramachandran, Akshat and Seo, Jamin and Chuang, Yu-Chuan and Itagi, Anirudh and Krishna, Tushar},
+  author={Seo, Jamin and Ramachandran, Akshat and Chuang, Yu-Chuan and Itagi, Anirudh and Krishna, Tushar},
   booktitle={2025 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
   pages={1--7},
   year={2025},
@@ -88,7 +115,12 @@ A. Parashar, “MAESTRO: A data-centric approach to understand reuse,
 performance, and hardware cost of DNN mappings,” IEEE Micro, vol. 40,
 no. 3, pp. 20–29, 2020.
 
-[2 ]S.-C. Kao, G. Jeong, and T. Krishna, “Confuciux: Autonomous hardware
+[2] S.-C. Kao, G. Jeong, and T. Krishna, “Confuciux: Autonomous hardware
 resource assignment for dnn accelerators using reinforcement learning,”
 in 2020 53rd Annual IEEE/ACM International Symposium on Microar-
 chitecture (MICRO), 2020, pp. 622–636
+
+## Maintainers
+- Akshat Ramachandran (akshat.r@gatech.edu)
+- Jamin Seo (jseo89@gatech.edu)
+- Tushar Krishna (tushar@ece.gatech.edu)
