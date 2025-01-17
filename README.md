@@ -94,20 +94,6 @@ pretrained_models/stage1_encoder.pth
 pretrained_models/stage2_decoder.pth
 ```
 
-## Citation
-If you find this repo useful and use our dataset/artifacts, please cite
-
-```
-@article{ramachandran2025uov,
-  title={AIrchitect v2: Learning the Hardware Accelerator Design Space through Unified Representations},
-  author={Seo, Jamin and Ramachandran, Akshat and Chuang, Yu-Chuan and Itagi, Anirudh and Krishna, Tushar},
-  booktitle={2025 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
-  pages={1--7},
-  year={2025},
-  organization={IEEE}
-}
-```
-
 
 ## References
 [1] H. Kwon, P. Chatarasi, V. Sarkar, T. Krishna, M. Pellauer, and
